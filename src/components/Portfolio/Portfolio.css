@@ -1,0 +1,51 @@
+#portfolio {
+  width: 80%;
+  margin: 1em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  height: 500px;
+}
+
+#projects {
+  overflow: auto;
+}
+
+#portfolio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 2000px;
+}
+
+.block-one, .block-two, .block-three {
+  display: inline-block;
+  border: 1px solid black;
+  height: 300px;
+  width: 33.3%;
+}
+
+.block-one {
+  background-color: blue;
+}
+
+.block-two {
+  background-color: green;
+}
+
+.block-three {
+  background-color: red;
+}
+
+.fas {
+  font-size: 5em;
+}
+
+@media only screen and (min-device-width: 768px){
+  #portfolio {
+    width: 50%;
+  }
+  
+}

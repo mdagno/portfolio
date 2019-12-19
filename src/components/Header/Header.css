@@ -1,0 +1,27 @@
+header {
+  text-align: center;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+header h1 {
+  
+}
+
+.navLinks {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  margin: 1em;
+  color: black;
+}
+
+.navLinks a:visited {
+  color: black;
+}

@@ -5,7 +5,22 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #eee;
-  height: 500px;
+  overflow: auto;
+  margin-top: 150px;
+}
+
+.project-title {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.project-description {
+  padding: 0 2em 2em 2em;
+  line-height: 2em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #projects {
@@ -16,36 +31,27 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  width: 2000px;
+
 }
 
-.block-one, .block-two, .block-three {
-  display: inline-block;
-  border: 1px solid black;
-  height: 300px;
-  width: 33.3%;
+#poker-winrate {
+  background-color: #ccc;
+  height: 1000px;
 }
 
-.block-one {
-  background-color: blue;
+#spaced-repetition {
+  background-color: white;
+  height: 1000px;
 }
 
-.block-two {
-  background-color: green;
-}
-
-.block-three {
-  background-color: red;
-}
-
-.fas {
-  font-size: 5em;
+#now-playing{
+  background-color: gray;
+  height: 1000px;
 }
 
 @media only screen and (min-device-width: 768px){
   #portfolio {
-    width: 50%;
+    width: 70%;
   }
   
 }

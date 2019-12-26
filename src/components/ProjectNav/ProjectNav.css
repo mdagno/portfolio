@@ -1,0 +1,47 @@
+.project-links {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: white;
+}
+
+.project-links h4 {
+  margin: 0.5em  0 1em;
+  font-size: 1.2em;
+}
+
+.project-links a {
+  background-color: white;
+}
+
+.project-links li {
+  background-color: white;
+  margin: 1em;
+}
+
+.project-links li:hover {
+  cursor: pointer;
+}
+
+
+/* .my-node-enter-active {
+  opacity: 1;
+  transform: translateX(100%);
+  transition: transform 400ms ease-in;
+}
+.my-node-exit {
+  opacity: 1;
+  transform: translateX(100%);
+  transition: transform 400ms ease-in;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+  transform: translateY(50px);
+  transition: transform 400ms ease-in;
+} */

@@ -1,0 +1,45 @@
+
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+.section-header {
+  font-size: 1.6em;
+  padding: 0.8em;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: fixed;
+  background-color: #ccc;
+  width: 100%;
+  top: 670px;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.stack-logos {
+  z-index: 11;
+  height: 75px;
+  margin: 5px;
+}

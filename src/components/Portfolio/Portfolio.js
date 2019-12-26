@@ -1,36 +1,50 @@
 import React from 'react';
 import './Portfolio.css'
 import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { CSSTransition } from 'react-transition-group';
 
 export default class Portfolio extends React.Component {
-  handleScrollLeft = () => {
-    scroll.scrollMore(100);
+  state = {
+    appear: false
   }
 
-  handleScrollRight = () => {
-
+  componentDidMount() {
+    this.setState({appear: true})
   }
 
   render() {
     return (
+      <CSSTransition
+      in={this.state.appear}
+      appear={true}
+      timeout={300}
+      classNames="my-node"
+      >
       <div id="portfolio">
-        <h3>Projects</h3>
+        <h3 className="section-header">Portfolio</h3>
         <ul>
-          <li>Poker WinRate</li>
-          <li>Spaced Repetition</li>
-          <li>Now Playing</li>
+          <li id="poker-winrate">
+            <Element name="poker-winrate">
+              <h4 className="project-title">Poker WinRate</h4> 
+              <p className="project-description">
+              Poker WinRate is an interactive web application that allows users to track results after each poker session to determine their win rate over time.  As much as poker is a game of skill, luck is a huge element of the game and it is important to track results to determine a player’s edge over a long period of time.  This application allows users to input their sessions indicating the game type, buy-in amount, and how much they cashed out.  The results are then compiled and sorted, and users are provided a data visualization in the analytics section.
+              </p>
+            </Element>
+          </li>
+          <li id="spaced-repetition">  
+            <Element name="spaced-repetition">
+            <h4 className="project-title">Spaced Repetition</h4> 
+            </Element>
+          </li>
+          <li id="now-playing">
+            <Element name="now-playing">
+            <h4 className="project-title">Now Playing</h4> 
+            </Element>  
+          </li>
         </ul>
-        <div id="projects">
-        <i class="fas fa-chevron-left" onClick={() => this.handleScrollLeft()}/>
-        <i class="fas fa-chevron-right" onClick={() => this.handleScrollLeft()}/>
-          <ul>
-            <li className="block-one"></li>
-            <li className="block-two"></li>
-            <li className="block-three"></li>
-          </ul>
-        </div>
       </div>
+      </CSSTransition>
     )
   }
 }

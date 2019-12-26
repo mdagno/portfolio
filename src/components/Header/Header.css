@@ -1,27 +1,19 @@
 header {
+  position: fixed;
   text-align: center;
   padding: 1em;
   border: 1px solid black;
+  width: 100%;
+  top: 0;
+  background-color: #ccc;
+  z-index: 10;
 }
 
 header h1 {
-  
+  margin-right: 7em;
 }
 
-.navLinks {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
+header h2 {
+  margin-left: 6em;
 }
 
-.navLinks a {
-  text-decoration: none;
-  margin: 1em;
-  color: black;
-}
-
-.navLinks a:visited {
-  color: black;
-}

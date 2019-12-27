@@ -1,17 +1,84 @@
-.navbar {
-  margin-top: -150px;
-  position: fixed;
-  float: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 11%;
-  background-color: #cccccc;
-  border-right: 3px solid black;
-  height: 650px;
-  z-index: 12;
+  .navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 12;
+  }
+  
+  .navLinks {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+  }
+
+  .navLinks a {
+    text-decoration: none;
+    margin: 1em;
+    color: black;
+  }
+
+  .navLinks a:visited {
+    color: black;
+  }
+
+  .navbar a {
+    font-weight: 500;
+    color: black;
+  }
+
+  .navbar a:hover {
+    font-size: 1.08em;
+    color: blue;
+  }
+
+  .navbar li {
+    border-bottom: 1px solid black;
+  }
+
+  .icon-links {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .icon-links img {
+    height: 30px;
+    margin: 5px;
+  }
+
+navbar {
+  width: 220px;
+  transform: translateX(-220px);
+  transition: transform 400ms ease-in;
+}
+#navbar.slideIn {
+  transform: translateX(0);
+}
+#navbar.slideOut {
+  transform: translateX(-220px);
 }
 
+@media screen and (min-width: 768px) {
+  .navbar {
+    margin-top: -150px;
+    position: fixed;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11%;
+    background-color: #cccccc;
+    border-right: 3px solid black;
+    height: 650px;
+    z-index: 12;
+  }
+  
 .navLinks {
   list-style: none;
   margin-left: auto;
@@ -31,7 +98,7 @@
 }
 
 .navbar a {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .navbar a:hover {
@@ -45,6 +112,7 @@
 
 .icon-links {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -63,4 +131,5 @@ navbar {
 }
 #navbar.slideOut {
   transform: translateX(-220px);
+}
 }

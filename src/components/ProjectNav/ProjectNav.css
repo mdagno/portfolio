@@ -5,15 +5,12 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin: 0;
   background-color: #ccc;
 }
 
-.project-links h4 {
-  margin: 0.5em  0 1em;
-  font-size: 1.2em;
-}
+
 
 /* .project-links a {
   background-color: white;
@@ -27,20 +24,19 @@
   cursor: pointer;
 }
 
+.project-links h4 {
+  display: none;
+}
 
-/* .my-node-enter-active {
-  opacity: 1;
-  transform: translateX(100%);
-  transition: transform 400ms ease-in;
+
+@media screen and (min-width: 768px) {
+  .project-links h4 {
+    margin: 0.5em  0 1em;
+    font-size: 1.2em;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
 }
-.my-node-exit {
-  opacity: 1;
-  transform: translateX(100%);
-  transition: transform 400ms ease-in;
-}
-.my-node-exit-active {
-  opacity: 0;
-  transition: opacity 200ms linear;
-  transform: translateY(50px);
-  transition: transform 400ms ease-in;
-} */
+

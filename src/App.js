@@ -61,8 +61,8 @@ class App extends React.Component {
       classNames="my-node"
       >
       <div className="App">
-        <Header />
-        <NavBar location={this.state}/>
+        <Header location={this.state.location}/>
+
         <Switch>
           <Route exact path="/" component={Bio} />
           <Route path="/projects" component={Portfolio} />

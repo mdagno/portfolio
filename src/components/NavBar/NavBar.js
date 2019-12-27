@@ -18,7 +18,7 @@ export default class NavBar extends React.Component {
           <li>Contact Me</li>
         </Link>
         <Link to="/projects">
-          <li styles={this.props.location.location==='/projects' ? 'font-size: 200px;' : null}>Projects</li>
+          <li>Projects</li>
         </Link>
       </ul>
     )
@@ -29,7 +29,7 @@ export default class NavBar extends React.Component {
       }
     }
   render() {
-    console.log(this.props.location.location)
+    console.log(this.props.location)
     return (
       <nav className="navbar" style={this.navBarHeight()}>
         <div className="icon-links">
@@ -44,7 +44,7 @@ export default class NavBar extends React.Component {
           </a>
         </div>
         {this.renderNavLinks()}
-        {this.props.location.location === "/projects" ? <ProjectNav /> : null}
+        {this.props.location === "/projects" ? <ProjectNav /> : null}
       </nav>
     )
   }

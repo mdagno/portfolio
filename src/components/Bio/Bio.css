@@ -4,9 +4,10 @@
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #eeeeee;
+  background-color: #ccc;
   height: auto;
   margin-top: 150px;
+  border-radius: 3px;
 }
 
 #about-me p {

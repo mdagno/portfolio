@@ -7,12 +7,13 @@
   background-color: #eee;
   overflow: auto;
   margin-top: 150px;
+  border-radius: 3px;
 }
 
 .project-title {
   padding: 1em;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .project-description {
@@ -31,7 +32,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 #poker-winrate {
@@ -40,13 +40,55 @@
 }
 
 #spaced-repetition {
-  background-color: white;
+  background-color: #ccc;
   height: 1000px;
 }
 
 #now-playing{
-  background-color: gray;
-  height: 1000px;
+  background-color: #ccc;
+  margin-bottom: 100px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-buttons button {
+  margin: 10px;
+  width: 150px;
+  height: 2.5em;
+  border-radius: 5px;
+}
+
+.app-screenshot {
+  width: 80%;
+  height: auto;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-image {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbnail-images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.thumbnail-image {
+  height: 125px;
+  width: auto;
+}
+
+.thumbnail-image:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-device-width: 768px){

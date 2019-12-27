@@ -19,7 +19,7 @@ export default class ProjectNav extends React.Component {
     return projects.map((project, index) => {
       return (
         <li key={index}>
-        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={-125} duration={500}>{project}</ScrollLink>
+        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={-100} duration={500}>{project}</ScrollLink>
         </li>
       )
     })
@@ -27,7 +27,6 @@ export default class ProjectNav extends React.Component {
 
   render() {
     const {appear} = this.state;
-    console.log(this.props.location)
     return (
       <CSSTransition
       in={appear}

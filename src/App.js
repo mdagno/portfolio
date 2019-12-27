@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Bio from './components/Bio/Bio';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
 import NavBar from './components/NavBar/NavBar';
 import * as Scroll from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll'
@@ -42,7 +43,7 @@ class App extends React.Component {
     })
   }
   renderLogos = () => {
-    const logos = [ reactIcon, chaiIcon, cssIcon, htmlIcon, javascriptIcon, jestIcon, jqueryIcon, mochaIcon, nodejsIcon, postgresIcon];
+    const logos = [ reactIcon, chaiIcon, cssIcon, htmlIcon, javascriptIcon, jestIcon, mochaIcon, nodejsIcon, postgresIcon];
     return logos.map(icon => {
       return (
         <img className="stack-logos" src={icon} alt={`${icon.replace('Icon','')} logo`}/>
@@ -66,6 +67,7 @@ class App extends React.Component {
           <Route exact path="/" component={Bio} />
           <Route path="/projects" component={Portfolio} />
           <Route path="/contactme" component={Contact} />
+          <Route path="/resume" component={Resume} />
         </Switch>
         <footer>
         {this.renderLogos()}

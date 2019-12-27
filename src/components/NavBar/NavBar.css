@@ -6,8 +6,10 @@
   flex-direction: column;
   justify-content: center;
   width: 11%;
-  background-color: #ccc;
+  background-color: #cccccc;
+  border-right: 3px solid black;
   height: 650px;
+  z-index: 12;
 }
 
 .navLinks {
@@ -39,6 +41,16 @@
 
 .navbar li {
   border-bottom: 1px solid black;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-links img {
+  height: 30px;
+  margin: 5px;
 }
 
 navbar {

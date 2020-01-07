@@ -43,12 +43,12 @@ export default class Portfolio extends React.Component {
   renderNowPlayingCarousel = () => {
     return (
       <div className="image-carousel">
-        <img name="nowPlayingOne" className="main-image" src={this.state.nowPlayingMain} alt="Screen shot of Now Playing home page"/>
         <div className="thumbnail-images">
           <img name="nowPlayingOne" className="thumbnail-image" src={nowPlayingOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick(e)}/>
           <img name="nowPlayingTwo" className="thumbnail-image" src={nowPlayingTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick(e)} />
           <img name="nowPlayingThree" className="thumbnail-image" src={nowPlayingThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick(e)} />
         </div>
+        <img name="nowPlayingOne" className="main-image" src={this.state.nowPlayingMain} alt="Screen shot of Now Playing home page"/>
       </div>
 
     )
@@ -63,7 +63,7 @@ export default class Portfolio extends React.Component {
       classNames="my-node"
       >
       <div id="portfolio">
-        <h3 className="section-header">Portfolio</h3>
+        <h3 className="section-header">Projects</h3>
         <ul>
           <li id="poker-winrate">
             <Element name="poker-winrate">

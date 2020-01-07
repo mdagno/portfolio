@@ -6,6 +6,11 @@
     margin: 0;
     padding: 0;
     z-index: 12;
+    text-align: center;
+    font-family: input-serif, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 0.85em;
   }
   
   .navLinks {
@@ -14,31 +19,29 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #ccc;
+    background-color: #2e2f45;
   }
 
   .navLinks a {
     text-decoration: none;
     margin: 1em;
-    color: black;
+    color: white;
+    border-bottom: 1px solid gray;
   }
 
   .navLinks a:visited {
-    color: black;
+    color: white;
   }
 
   .navbar a {
     font-weight: 500;
-    color: black;
+    color: white;
+    text-decoration: none;
   }
 
   .navbar a:hover {
     font-size: 1.08em;
     color: blue;
-  }
-
-  .navbar li {
-    border-bottom: 1px solid black;
   }
 
   .icon-links {
@@ -52,7 +55,7 @@
     margin: 5px;
   }
 
-navbar {
+/* navbar {
   width: 220px;
   transform: translateX(-220px);
   transition: transform 400ms ease-in;
@@ -62,21 +65,21 @@ navbar {
 }
 #navbar.slideOut {
   transform: translateX(-220px);
-}
+} */
 
 @media screen and (min-width: 768px) {
   .navbar {
-    margin-top: -150px;
+    margin-top: -86px;
     position: fixed;
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 11%;
-    background-color: #cccccc;
+    width: 200px;
+    background-color: #2e2f45;
     border-right: 3px solid black;
-    height: 650px;
     z-index: 12;
+    
   }
   
 .navLinks {
@@ -90,11 +93,11 @@ navbar {
 .navLinks a {
   text-decoration: none;
   margin: 1em;
-  color: black;
+  color: white;
 }
 
 .navLinks a:visited {
-  color: black;
+  color: white;
 }
 
 .navbar a {
@@ -107,7 +110,7 @@ navbar {
 }
 
 .navbar li {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
 }
 
 .icon-links {

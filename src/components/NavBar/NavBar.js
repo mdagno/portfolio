@@ -8,6 +8,22 @@ import linkedInIcon from '../../logos/linkedin-icon-2.svg';
 import gmailIcon from '../../logos/gmail-icon.svg'
 
 export default class NavBar extends React.Component {
+  state = {
+    windowHeight: null,
+    projects: false,
+  }
+
+  componentDidMount() {
+    this.setState({windowHeight: window.innerHeight})
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  handleResize = () => {
+    if(Math.abs(this.state.windowHeight - window.innerHeight) > 25) {
+      this.setState({windowHeight: window.innerHeight})
+    }
+  }
+
   renderNavLinks = () => {
     return (
       <ul className="navLinks">
@@ -23,13 +39,13 @@ export default class NavBar extends React.Component {
       </ul>
     )
     }
-    navBarHeight = () => {
-      return {
-        height: window.innerHeight
-      }
+  navBarHeight = () => {
+    return {
+      height: this.state.windowHeight
     }
+  }
   render() {
-    console.log(this.props.location)
+
     return (
       <nav className="navbar" style={this.navBarHeight()}>
         <div className="icon-links">

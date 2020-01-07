@@ -19,13 +19,6 @@
   padding: 0.8em;
 }
 
-.logos {
-  display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 footer {
   position: fixed;
@@ -42,4 +35,10 @@ footer {
   z-index: 11;
   height: 75px;
   margin: 5px;
+}
+
+h3 {
+  font-family: input-serif, serif;
+  font-weight: 500;
+  font-style: normal;
 }

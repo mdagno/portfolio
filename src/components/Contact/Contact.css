@@ -3,10 +3,11 @@
   margin: 1em;
   margin-left: auto;
   margin-right: auto;
-  background-color: #eee;
+  background-color: #333;
   height: 500px;
   margin-top: 150px;
   border-radius: 3px;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {

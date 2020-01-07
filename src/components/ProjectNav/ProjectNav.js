@@ -19,7 +19,7 @@ export default class ProjectNav extends React.Component {
     return projects.map((project, index) => {
       return (
         <li key={index}>
-        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={(window.innerWidth < 768) ? -175 : -150} duration={500}>{project}</ScrollLink>
+        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={(window.innerWidth < 768) ? -175 : -80} duration={500}>{project}</ScrollLink>
         </li>
       )
     })

@@ -16,6 +16,7 @@ class App extends React.Component {
   state = {
     location: "",
     appear: false,
+    windowWidth: null
   }
 
   componentDidUpdate() {
@@ -30,16 +31,29 @@ class App extends React.Component {
   }
   
   componentDidMount() {
+    window.addEventListener('resize', this.handleResizeWidth)
     this.setState({
       location: this.props.location.pathname,
       appear: true,
+      windowWidth: window.innerWidth
     })
   }
 
+  handleResizeWidth = () => {
+    this.setState({
+      windowWidth: window.innerWidth
+    })
+  }
+
+  determineMargin = () => {
+    let marginD = (this.state.windowWidth - 200 - this.state.windowWidth * 0.80) / 2 + 200;
+    return {
+      margin: marginD,
+    };
+  }
 
   render() {
     const { appear } = this.state
-    console.log(this.state)
     return (
       <CSSTransition
       in={appear}
@@ -49,11 +63,10 @@ class App extends React.Component {
       >
       <div className="App">
         <Header location={this.state.location}/>
-      
         <Switch>
-          <Route exact path="/" component={Bio} />
-          <Route path="/projects" component={Portfolio} />
-          <Route path="/contactme" component={Contact} />
+          <Route exact path="/" render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margine={this.determineMargin()}/>}/>
+          <Route path="/projects" render={(props) => <Portfolio {...props} windowWidth={this.state.windowWidth}  margine={this.determineMargin()}/>}/>
+          <Route path="/contactme" render={(props) => <Contact {...props} windowWidth={this.state.windowWidth}  margine={this.determineMargin()}/>}/>
           <Route path="/resume" component={Resume} />
         </Switch>
       </div>

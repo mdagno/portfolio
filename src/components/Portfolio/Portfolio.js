@@ -36,7 +36,6 @@ export default class Portfolio extends React.Component {
   }
   
   handleImageClick = e => {
-    console.log('Click Fired')
     this.setState({nowPlayingMain: e.target.src})
   }
 
@@ -62,7 +61,7 @@ export default class Portfolio extends React.Component {
       timeout={300}
       classNames="my-node"
       >
-      <div id="portfolio">
+      <div id="portfolio" style={this.props.windowWidth > 768 ? this.props.margine : null}>
         <h3 className="section-header">Projects</h3>
         <ul>
           <li id="poker-winrate">

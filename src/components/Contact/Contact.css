@@ -5,13 +5,15 @@
   margin-right: auto;
   background-color: #333;
   height: 500px;
-  margin-top: 150px;
+  margin-top: 150px !important;
   border-radius: 3px;
   color: white;
+  background-color: gray;
 }
 
 @media screen and (min-width: 768px) {
   #contact-info {
+    width: 80%;
     margin-left: 20.5%;
     margin-right: auto;
     margin-top: 125px;

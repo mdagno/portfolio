@@ -2,11 +2,12 @@
   width: 90%;
   padding: 1em;
   background-color: #333;
-  margin-top: 100px;
+  margin-top: 150px !important;
   border-radius: 3px;
   color: white;
   margin-left: auto;
   margin-right: auto;
+  background-color: gray;
 }
 
 #about-me p {
@@ -25,9 +26,12 @@
 
 @media only screen and (min-device-width: 768px){
   #about-me {
-    width: 70%;
-    margin-left: 20.5%;
+    width: 80%;
+  }
+
+  #about-me  p{
+    width: 80%;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 125px;
   }
 }

@@ -15,7 +15,6 @@ export default class ProjectNav extends React.Component {
 
   renderProjectLinks = () => {
     const projects = ['Poker WinRate', 'Spaced Repetition', 'Now Playing']
-    console.log(window.innerWidth < 768)
     return projects.map((project, index) => {
       return (
         <li key={index}>

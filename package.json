@@ -1,5 +1,4 @@
 {
-  "homepage": "http://mdagno.com.github.io/portfolio",
   "name": "marlon-agno-website",
   "version": "0.1.0",
   "private": true,
@@ -36,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }

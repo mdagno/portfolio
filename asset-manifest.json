@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c97817d7.chunk.css",
+    "main.js": "/portfolio/static/js/main.9d378cea.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9d378cea.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.32894e83.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.32894e83.js.map",
+    "static/js/2.6cd389d4.chunk.js": "/portfolio/static/js/2.6cd389d4.chunk.js",
+    "static/js/2.6cd389d4.chunk.js.map": "/portfolio/static/js/2.6cd389d4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.3133c04edbfb22b4ebd37d1531aa4257.js": "/portfolio/precache-manifest.3133c04edbfb22b4ebd37d1531aa4257.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.c97817d7.chunk.css.map": "/portfolio/static/css/main.c97817d7.chunk.css.map",
+    "static/js/2.6cd389d4.chunk.js.LICENSE": "/portfolio/static/js/2.6cd389d4.chunk.js.LICENSE",
+    "static/media/Marlon Agno Resume.pdf": "/portfolio/static/media/Marlon Agno Resume.c88d5e0b.pdf",
+    "static/media/chai.svg": "/portfolio/static/media/chai.16809aa7.svg",
+    "static/media/css3.svg": "/portfolio/static/media/css3.3707da3c.svg",
+    "static/media/NavBar.css": "/portfolio/static/media/footer_lodyas.9a30e6c6.png",
+    "static/media/gmail-icon.svg": "/portfolio/static/media/gmail-icon.e67c6af8.svg",
+    "static/media/html5.svg": "/portfolio/static/media/html5.f0361c5e.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.61ed8b05.svg",
+    "static/media/jest-0.svg": "/portfolio/static/media/jest-0.ea9cdc83.svg",
+    "static/media/jquery-1.svg": "/portfolio/static/media/jquery-1.da41a704.svg",
+    "static/media/linkedin-icon-2.svg": "/portfolio/static/media/linkedin-icon-2.4f2bc978.svg",
+    "static/media/mocha-1.svg": "/portfolio/static/media/mocha-1.ae200940.svg",
+    "static/media/nodejs-icon.svg": "/portfolio/static/media/nodejs-icon.b337a2fb.svg",
+    "static/media/now-playing-1.PNG": "/portfolio/static/media/now-playing-1.9951f147.PNG",
+    "static/media/now-playing-2.PNG": "/portfolio/static/media/now-playing-2.44c1df3a.PNG",
+    "static/media/now-playing-3.PNG": "/portfolio/static/media/now-playing-3.4725da7e.PNG",
+    "static/media/poker-winrate-1.PNG": "/portfolio/static/media/poker-winrate-1.508066ab.PNG",
+    "static/media/poker-winrate-2.PNG": "/portfolio/static/media/poker-winrate-2.6141c7a3.PNG",
+    "static/media/poker-winrate-3.PNG": "/portfolio/static/media/poker-winrate-3.81431db2.PNG",
+    "static/media/postgresql.svg": "/portfolio/static/media/postgresql.d7c985e7.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32894e83.js",
+    "static/js/2.6cd389d4.chunk.js",
+    "static/css/main.c97817d7.chunk.css",
+    "static/js/main.9d378cea.chunk.js"
+  ]
+}

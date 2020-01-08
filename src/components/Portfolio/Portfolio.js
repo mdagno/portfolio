@@ -61,7 +61,7 @@ export default class Portfolio extends React.Component {
       timeout={300}
       classNames="my-node"
       >
-      <div id="portfolio" style={this.props.windowWidth > 768 ? this.props.margine : null}>
+      <div id="portfolio" style={this.props.windowWidth > 1024 ? this.props.margin : null}>
         <h3 className="section-header">Projects</h3>
         <ul>
           <li id="poker-winrate">
@@ -70,20 +70,9 @@ export default class Portfolio extends React.Component {
               <p className="project-description">
               Poker WinRate is an interactive web application that allows users to track results after each poker session to determine their win rate over time.  As much as poker is a game of skill, luck is a huge element of the game and it is important to track results to determine a player’s edge over a long period of time.  This application allows users to input their sessions indicating the game type, buy-in amount, and how much they cashed out.  The results are then compiled and sorted, and users are provided a data visualization in the analytics section.
               </p>
+              {this.renderNowPlayingCarousel()}
             </Element>
             {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-client", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-server")}
-          </li>
-          <li id="spaced-repetition">  
-            <Element name="spaced-repetition">
-              <h4 className="project-title">Spaced Repetition</h4> 
-              <p className="project-description">
-              Spaced repetition is a learning technique that is typically used with flash cards.  By displaying information that users have more trouble memorizing, the rate of learning is increased. 
-
-              By implementing an algorithm on the server to correctly space cards that a user guesses correctly and incorrectly, the Spaced Repetition application can help a user memorize a language more effectively.  Currently, the supported language in Spaced Repetition is Morse.
-
-              </p>
-            </Element>
-            {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep-api")}
           </li>
           <li id="now-playing">
             <Element name="now-playing">
@@ -96,7 +85,19 @@ export default class Portfolio extends React.Component {
               </p>
               {this.renderNowPlayingCarousel()}
             </Element>  
-            {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/NowPlaying-Client", "https://github.com/thinkful-ei-gecko/NowPlaying-Server")}
+            {this.renderProjectButtons("https://playing-phi-ten.now.sh/", "https://github.com/thinkful-ei-gecko/NowPlaying-Client", "https://github.com/thinkful-ei-gecko/NowPlaying-Server")}
+          </li>
+          <li id="spaced-repetition">  
+            <Element name="spaced-repetition">
+              <h4 className="project-title">Spaced Repetition</h4> 
+              <p className="project-description">
+              Spaced repetition is a learning technique that is typically used with flash cards.  By displaying information that users have more trouble memorizing, the rate of learning is increased. 
+
+              By implementing an algorithm on the server to correctly space cards that a user guesses correctly and incorrectly, the Spaced Repetition application can help a user memorize a language more effectively.  Currently, the supported language in Spaced Repetition is Morse.
+              </p>
+              {this.renderNowPlayingCarousel()}
+            </Element>
+            {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep-api")}
           </li>
         </ul>
       </div>

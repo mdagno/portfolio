@@ -1,13 +1,13 @@
 header {
   position: fixed;
   text-align: center;
-  border: 1px solid black;
   width: 100%;
   top: 0;
-  background-color: #2e2f45;
-  color: white;
+  background-color: #EFEFEF;
+  color: #a9a9a9;
   z-index: 10;
   height: 108px;
+  box-shadow: 0 5px 5px black;
 }
 
 header h1 {
@@ -30,14 +30,14 @@ header a {
 }
 
 header a:hover {
-  color: blue;
+  color: #FF3b3F;
 }
 
 header a:visited {
-  color: white;
+  color: #555;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
   header {
     text-align: left;
   }

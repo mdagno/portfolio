@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  background-color: #2e2f45;
+  background-color: #EFEFEF;
 }
 
 
@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
   .project-links h4 {
     margin: 0.5em  0 1em;
     font-size: 1.2em;

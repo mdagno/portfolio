@@ -6,11 +6,11 @@
     margin: 0;
     padding: 0;
     z-index: 12;
-    text-align: center;
+    text-align: right;
     font-family: input-serif, serif;
-    font-weight: 200;
     font-style: normal;
     font-size: 0.85em;
+    color: #a9a9a9;
   }
   
   .navLinks {
@@ -19,23 +19,23 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #2e2f45;
+    /* background-color: #EFEFEF; */
+    background-color: #EFEFEF;
   }
 
   .navLinks a {
     text-decoration: none;
     margin: 1em;
-    color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: black;
   }
 
   .navLinks a:visited {
-    color: white;
+    color: #555;
   }
 
   .navbar a {
     font-weight: 500;
-    color: white;
+    color: #555;
     text-decoration: none;
   }
 
@@ -67,19 +67,20 @@
   transform: translateX(-220px);
 } */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
   .navbar {
-    margin-top: -86px;
+    margin-top: -91px;
+    margin-left: -1px;
     position: fixed;
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 200px;
-    background-color: #2e2f45;
+    background-color: #EFEFEF;
     border-right: 3px solid black;
     z-index: 12;
-    
+    box-shadow: 5px 0 12px black;
   }
   
 .navLinks {
@@ -88,16 +89,6 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
-}
-
-.navLinks a {
-  text-decoration: none;
-  margin: 1em;
-  color: white;
-}
-
-.navLinks a:visited {
-  color: white;
 }
 
 .navbar a {
@@ -124,7 +115,7 @@
   margin: 5px;
 }
 
-navbar {
+/* navbar {
   width: 220px;
   transform: translateX(-220px);
   transition: transform 400ms ease-in;
@@ -134,5 +125,5 @@ navbar {
 }
 #navbar.slideOut {
   transform: translateX(-220px);
-}
+} */
 }

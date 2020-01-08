@@ -19,7 +19,6 @@
   padding: 0.8em;
 }
 
-
 footer {
   position: fixed;
   background-color: #ccc;
@@ -41,4 +40,9 @@ h3 {
   font-family: input-serif, serif;
   font-weight: 500;
   font-style: normal;
+}
+
+p {
+  font-size: 1.12em;
+  font-weight: 500;
 }

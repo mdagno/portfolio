@@ -45,9 +45,8 @@ export default class NavBar extends React.Component {
     }
   }
   render() {
-
     return (
-      <nav className="navbar" style={this.navBarHeight()}>
+      <nav className="navbar" style={window.innerWidth > 1024 ? this.navBarHeight() : null}>
         <div className="icon-links">
           <a href="mailto:mdj.agno@gmail.com">
           <img src={gmailIcon} alt="Logo for gmail" />

@@ -11,6 +11,9 @@
     font-style: normal;
     font-size: 0.85em;
     color: #a9a9a9;
+    background-image: url("../../footer_lodyas.png");
+    box-shadow: 3px 0 1px #FAC67A;
+    padding: 0.3em;
   }
   
   .navLinks {
@@ -19,34 +22,29 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    /* background-color: #EFEFEF; */
-    background-color: #EFEFEF;
   }
 
   .navLinks a {
     text-decoration: none;
     margin: 1em;
-    border-bottom: black;
   }
 
   .navLinks a:visited {
-    color: #555;
+    color: #EAC67A;
   }
 
   .navbar a {
     font-weight: 500;
-    color: #555;
+    color: #EAC67A;
     text-decoration: none;
   }
 
   .navbar a:hover {
     font-size: 1.08em;
-    color: blue;
+    color: #984B43;
   }
 
   .icon-links {
-    display: flex;
-    flex-direction: column;
     display: none;
   }
 
@@ -54,6 +52,12 @@
     height: 30px;
     margin: 5px;
   }
+
+  .icon-links img:hover {
+    height: 35px;
+    margin: 5px;
+  }
+
 
 /* navbar {
   width: 220px;
@@ -77,53 +81,33 @@
     flex-direction: column;
     justify-content: center;
     width: 200px;
-    background-color: #EFEFEF;
-    border-right: 3px solid black;
     z-index: 12;
-    box-shadow: 5px 0 12px black;
+    box-shadow: 5px 0 10px black;
   }
   
-.navLinks {
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-}
+  .navLinks {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-.navbar a {
-  font-weight: 500;
-}
+  .navbar a {
+    font-weight: 500;
+  }
 
-.navbar a:hover {
-  font-size: 1.08em;
-  color: blue;
-}
+  .navbar li {
+    border-bottom: 1px solid gray;
+  }
 
-.navbar li {
-  border-bottom: 1px solid gray;
-}
+  .icon-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #233237;
+    padding: 0.5em;
+    box-shadow: 5px 5px 5px black;
+  }
 
-.icon-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.icon-links img {
-  height: 30px;
-  margin: 5px;
-}
-
-/* navbar {
-  width: 220px;
-  transform: translateX(-220px);
-  transition: transform 400ms ease-in;
-}
-#navbar.slideIn {
-  transform: translateX(0);
-}
-#navbar.slideOut {
-  transform: translateX(-220px);
-} */
 }

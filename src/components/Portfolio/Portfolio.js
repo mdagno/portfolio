@@ -62,7 +62,7 @@ export default class Portfolio extends React.Component {
       classNames="my-node"
       >
       <div id="portfolio" style={this.props.windowWidth > 1024 ? this.props.margin : null}>
-        <h3 className="section-header">Projects</h3>
+        <h3 className="section-header">PROJECTS</h3>
         <ul>
           <li id="poker-winrate">
             <Element name="poker-winrate">

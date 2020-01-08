@@ -3,8 +3,8 @@ header {
   text-align: center;
   width: 100%;
   top: 0;
-  background-color: #EFEFEF;
-  color: #a9a9a9;
+  background-color: #233237;
+  color: #efefef;
   z-index: 10;
   height: 108px;
   box-shadow: 0 5px 5px black;
@@ -34,7 +34,7 @@ header a:hover {
 }
 
 header a:visited {
-  color: #555;
+  color: #18121e;
 }
 
 @media screen and (min-width: 1025px) {

@@ -18,7 +18,7 @@ class Contact extends React.Component {
       timeout={200}
       classNames="my-node"
       >
-      <div id="contact-info" style={this.props.windowWidth > 1024 ? this.props.margin : null}>
+      <div id="contact-info" style={this.props.windowWidth >= 1024 ? this.props.margin : null}>
         <h3 className="section-header">CONTACT ME</h3>
         <ul>
           <li>LinkedIn</li>

@@ -37,7 +37,7 @@ header a:visited {
   color: #ccc;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   header {
     text-align: left;
   }

@@ -34,7 +34,6 @@ export default class ProjectNav extends React.Component {
       classNames="my-node"
       >
       <ul className="project-links">
-        <h4>Projects</h4>
         {this.renderProjectLinks()}
       </ul>
       </CSSTransition>

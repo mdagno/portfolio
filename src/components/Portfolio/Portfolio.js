@@ -88,7 +88,7 @@ export default class Portfolio extends React.Component {
       timeout={300}
       classNames="my-node"
       >
-      <div id="portfolio" style={this.props.windowWidth > 1024 ? this.props.margin : null}>
+      <div id="portfolio" style={this.props.windowWidth >= 1024 ? this.props.margin : null}>
         <h3 className="section-header">PROJECTS</h3>
         <ul>
           <li id="poker-winrate">

@@ -46,7 +46,7 @@ class App extends React.Component {
   }
 
   determineMargin = () => {
-    let marginD = (this.state.windowWidth - 200 - this.state.windowWidth * 0.70) / 2 + 200;
+    let marginD = (this.state.windowWidth - 202 - this.state.windowWidth * 0.70) / 2 + 200;
     return {
       margin: marginD,
     };

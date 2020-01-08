@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     z-index: 12;
-    text-align: right;
+    text-align: center;
     font-family: input-serif, serif;
     font-style: normal;
     font-size: 0.85em;
@@ -27,6 +27,8 @@
   .navLinks a {
     text-decoration: none;
     margin: 1em;
+    font-size: 1.12em;
+    font-weight: 400 !important;
   }
 
   .navLinks a:visited {
@@ -40,8 +42,11 @@
   }
 
   .navbar a:hover {
-    font-size: 1.08em;
     color: #984B43;
+  }
+
+  .navLinks a:hover {
+    font-size: 1.16em;
   }
 
   .icon-links {
@@ -71,7 +76,7 @@
   transform: translateX(-220px);
 } */
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   .navbar {
     margin-top: -91px;
     margin-left: -1px;
@@ -83,6 +88,7 @@
     width: 200px;
     z-index: 12;
     box-shadow: 7px 0 10px black;
+    text-align: right;
   }
   
   .navLinks {
@@ -110,4 +116,15 @@
     box-shadow: 5px 5px 5px black;
   }
 
+  .navbar a:hover {
+    font-size: 1.08em;
+  }
+
+  .navLinks a {
+    font-size: 1.28em;
+  }
+
+  .navLinks a:hover {
+    font-size: 1.36em;
+  }
 }

@@ -112,7 +112,7 @@
 }
 
 
-@media only screen and (min-device-width: 768px)  and (max-device-width: 1024px){
+@media only screen and (min-device-width: 768px)  and (max-device-width: 1023px){
   .image-carousel {
     display: flex;
     flex-direction: column-reverse;
@@ -162,7 +162,7 @@
 
 }
 
-@media only screen and (min-device-width: 1025px){
+@media only screen and (min-device-width: 1024px){
   #portfolio {
     width: 70%;
     margin: 1em;

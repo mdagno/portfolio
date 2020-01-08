@@ -36,7 +36,7 @@
 }
 
 #poker-winrate {
-  border-bottom: 1px solid white;
+  border-bottom: 2px dotted #984B43;
   padding-bottom: 30px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 #now-playing{
-  border-bottom: 1px solid white;
+  border-bottom: 2px dotted #984B43;
   padding-bottom: 30px;
 }
 
@@ -65,10 +65,11 @@
   width: 200px;
   margin-top: 5px;
   height: 3.5em;
-  background-color: #233237;
-  color: #EAC67A;
+  color: #FAC67A;
+  background-color: transparent;
+  border: 1px solid #FAC67A;
   box-shadow: 3px 3px 3px black;
-  border: none;
+
 }
 
 .main-image {
@@ -87,7 +88,7 @@
   margin: 5px;
   height: auto;
   width: 90%;
-  border: 1px solid #FAC67A;
+  border: 2px outset #ccc;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,6 +97,18 @@
   cursor: pointer;
   border: 1px solid #984b43;
   height: 105%;
+  translate-y: -5px;
+  color: #984b43;
+}
+
+.main-image-caption {
+  text-align: center;
+  color: #FAC67A;
+  background-color: #233237;
+  width: 78%;
+  box-shadow: 5px 5px 5px black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -173,7 +186,7 @@
   }
   
   .project-buttons {
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -200,6 +213,7 @@
     display: block;
     width: 70%;
     height: auto;
+    border: 1px inset #ccc;
   }
   
   .thumbnail-image {
@@ -223,8 +237,8 @@
   p {
     padding: 1em;
     margin: 0;
-    font-weight: 600;
+    font-weight: 500;
     color: #ccc;
-    background-color: 233237;
   }
+
 }

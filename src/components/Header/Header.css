@@ -7,6 +7,7 @@ header {
   color: #ccc;
   z-index: 10;
   height: 108px;
+  border-bottom: 10px solid #233237;
 }
 
 header h1 {
@@ -42,7 +43,7 @@ header a:visited {
   }
 
   header h1 {
-    margin-left: 25%;
+    margin-left: 21.5%;
   }
   
   header h2 {

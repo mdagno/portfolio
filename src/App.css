@@ -18,21 +18,11 @@
   font-size: 1.7em;
   padding: 0.8em;
   color: #FAC67A;
-  border-radius: 10px;
+  border-radius: 5x;
   width: 11em;
   text-align: center;
-
-}
-
-footer {
-  position: fixed;
-  background-color: #ccc;
-  width: 100%;
-  top: 670px;
-  z-index: 11;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  background-color: #233237;
+  box-shadow: 5px 5px 5px black;
 }
 
 .stack-logos {
@@ -50,4 +40,22 @@ h3 {
 p {
   font-size: 1.12em;
   font-weight: 500;
+}
+
+footer {
+  background-color: #233237;
+  color: white;
+  padding: 1em;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 500;
+  justify-content: space-evenly;
 }

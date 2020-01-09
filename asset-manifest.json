@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c97817d7.chunk.css",
+    "main.css": "/portfolio/static/css/main.40137627.chunk.css",
     "main.js": "/portfolio/static/js/main.9d378cea.chunk.js",
     "main.js.map": "/portfolio/static/js/main.9d378cea.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.32894e83.js",
@@ -8,9 +8,9 @@
     "static/js/2.6cd389d4.chunk.js": "/portfolio/static/js/2.6cd389d4.chunk.js",
     "static/js/2.6cd389d4.chunk.js.map": "/portfolio/static/js/2.6cd389d4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3133c04edbfb22b4ebd37d1531aa4257.js": "/portfolio/precache-manifest.3133c04edbfb22b4ebd37d1531aa4257.js",
+    "precache-manifest.e3296f124d361b7fcfda809c0652fd6d.js": "/portfolio/precache-manifest.e3296f124d361b7fcfda809c0652fd6d.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.c97817d7.chunk.css.map": "/portfolio/static/css/main.c97817d7.chunk.css.map",
+    "static/css/main.40137627.chunk.css.map": "/portfolio/static/css/main.40137627.chunk.css.map",
     "static/js/2.6cd389d4.chunk.js.LICENSE": "/portfolio/static/js/2.6cd389d4.chunk.js.LICENSE",
     "static/media/Marlon Agno Resume.pdf": "/portfolio/static/media/Marlon Agno Resume.c88d5e0b.pdf",
     "static/media/chai.svg": "/portfolio/static/media/chai.16809aa7.svg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.32894e83.js",
     "static/js/2.6cd389d4.chunk.js",
-    "static/css/main.c97817d7.chunk.css",
+    "static/css/main.40137627.chunk.css",
     "static/js/main.9d378cea.chunk.js"
   ]
 }

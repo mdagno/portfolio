@@ -44,6 +44,22 @@ p {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  font-family: input-serif, serif;
+  font-style: normal;
+  color: #FAC67A;
+}
+
+a:hover {
+  color: #984b43;
+}
+
+a:visited {
+  color: #FAC67A;
+}
+
+/* 
 footer {
   background-color: #233237;
   color: white;
@@ -60,7 +76,7 @@ footer ul {
   font-size: 1.2em;
   font-weight: 500;
   justify-content: space-evenly;
-}
+} */
 
 @media only screen and (min-device-width: 768px) {
   .section-header {

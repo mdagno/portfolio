@@ -69,13 +69,6 @@ class App extends React.Component {
           <Route path="/contactme" render={(props) => <Contact {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/resume" component={Resume} />
         </Switch>
-        <footer>
-          <ul>
-            <li>Email</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
-          </ul>
-        </footer>
       </div>
       </CSSTransition>
     );

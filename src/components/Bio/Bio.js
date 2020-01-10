@@ -30,6 +30,15 @@ class Bio extends React.Component {
     })
   }
 
+  renderTechnologiesList = () => {
+    const techStack = ['JavaScript', 'React', 'HTML', 'Node', 'Express', 'Chai', 'Mocha', 'Jest', 'Enzyme', 'jQuery' ]
+    return techStack.map((tech, index) => {
+      return (
+      <li className="tech-list-element" key={index}>{tech}</li>
+      )
+    })
+  }
+
   render() {
     return (
       <CSSTransition
@@ -41,6 +50,10 @@ class Bio extends React.Component {
       <div id="about-me" style={this.props.windowWidth >= 1024 ? this.props.margin : null}>
         <h3 className="section-header">ABOUT ME</h3>
         <p>My name is Marlon Agno and I am a full stack web developer. As a scientist and engineer, I aspire to cultivate a genuine curiosity of the world around me.  After graduating with a degree in engineering and working as a research engineer, I found myself looking to learn more about one of the pillar technologies that the world is built on today, software. I chose to become a full-stack developer to achieve a deeper understanding of technology, as well as be in a field that is conducive to challenging myself and continually learning. </p>
+        <h4>Technologies/Skills</h4>
+        <ul id='technologies-list'>
+         {this.renderTechnologiesList()}
+        </ul>
         <div className="logos">
           {this.renderLogos()}
         </div>

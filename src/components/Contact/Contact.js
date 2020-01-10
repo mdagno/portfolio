@@ -20,11 +20,22 @@ class Contact extends React.Component {
       >
       <div id="contact-info" style={this.props.windowWidth >= 1024 ? this.props.margin : null}>
         <h3 className="section-header">CONTACT ME</h3>
-        <ul>
-          <li>LinkedIn</li>
-          <li>GitHub</li>
-          <li>E-mail</li>
-          <li>Resume</li>
+        <ul className="contact-list">
+         <li>
+          <a href="https://github.com/mdagno/" target="_blank" rel="noopener noreferrer">
+          GitHub
+          </a>
+          </li>
+          <li>
+          <a href="https://www.linkedin.com/in/marlon-agno-75a858108/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          </li>
+          <li>
+          <a href="mailto:mdj.agno@gmail.com">
+            mdj.agno@gmail.com
+           </a>
+          </li>
         </ul>
       </div>
       </CSSTransition>

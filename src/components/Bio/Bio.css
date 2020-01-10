@@ -14,6 +14,8 @@
 #about-me p {
   padding: 1em;
   line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .logos {
@@ -22,11 +24,43 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 200px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   background-color: #233237;
   box-shadow: 5px 5px 5px black;
+}
+
+#technologies-list {
+  font-size: 1.24em;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: disc !important;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+#technologies-list li {
+  display: inline-block;
+  text-align: center;
+  height: 35px;
+  width: 20%;
+  margin: 5px;
+  font-family: input-serif, serif;
+  font-style: normal;
+}
+
+#about-me h4 {
+  font-size: 1.4em;
+  margin: 1em;
+  text-align: center;
+  font-family: input-serif, serif;
+  font-style: normal;
+  color: #FAC67A;
+
 }
 
 @media only screen and (min-device-width: 768px){
@@ -35,8 +69,9 @@
   }
 
   #about-me  p{
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5em;
   }
 }

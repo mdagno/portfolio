@@ -9,17 +9,20 @@ import nowPlayingThree from '../../app-screenshots/now-playing-3.PNG';
 import pokerOne from '../../app-screenshots/poker-winrate-1.PNG';
 import pokerTwo from '../../app-screenshots/poker-winrate-2.PNG';
 import pokerThree from '../../app-screenshots/poker-winrate-3.PNG';
+import spacedRepetitionOne from '../../app-screenshots/sr-one.PNG';
+import spacedRepetitionTwo from '../../app-screenshots/sr-two.PNG';
+import spacedRepetitionThree from '../../app-screenshots/sr-three.PNG';
 
 
 export default class Portfolio extends React.Component {
   state = {
     appear: false,
     pokerWinRateMain: pokerOne,
-    spacedRepetitionMain: "",
+    spacedRepetitionMain: spacedRepetitionOne,
     nowPlayingMain: nowPlayingOne,
-    nowPlayingMainCaption: "",
-    pokerWinRateMainCaption: "",
-    spacedRepetitionMainCaption: "",
+    nowPlayingMainCaption: `Now Playing home page displaying "happenings" feature with latest website activity`,
+    pokerWinRateMainCaption: "Poker sessions displayed as cards in a condensed view filtered by most recent",
+    spacedRepetitionMainCaption: "Spaced Repetion home page and sign up",
   }
 
   componentDidMount() {
@@ -48,34 +51,49 @@ export default class Portfolio extends React.Component {
       [field]: e.target.src,
       [caption]: e.target.alt
     })
-    console.log(caption)
   }
 
-  renderNowPlayingCarousel = () => {
+  // renderNowPlayingCarousel = () => {
+  //   return (
+  //     <div className="image-carousel">
+  //       <div className="thumbnail-images">
+  //         <img name="nowPlayingOne" className="thumbnail-image" src={nowPlayingOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('nowPlayingMain', e)}/>
+  //         <img name="nowPlayingTwo" className="thumbnail-image" src={nowPlayingTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
+  //         <img name="nowPlayingThree" className="thumbnail-image" src={nowPlayingThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
+  //       </div>
+  //       <img name="nowPlayingMain" className="main-image" src={this.state.nowPlayingMain} alt="Screen shot of Now Playing home page"/>
+  //     </div>
+
+  //   )
+  // }
+
+  // renderPokerWinrateCarousel = () => {
+  //   return (
+  //     <div className="image-carousel">
+  //       <div className="thumbnail-images">
+  //         <img name="pokerOne" className="thumbnail-image" src={pokerOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('pokerWinRateMain', e)}/>
+  //         <img name="pokerTwo" className="thumbnail-image" src={pokerTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
+  //         <img name="pokerThree" className="thumbnail-image" src={pokerThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
+  //       </div>
+  //       <img name="pokerWinRateMain" className="main-image" src={this.state.pokerWinRateMain} alt="Screen shot of Now Playing home page"/>
+  //     </div>
+  //   )
+  // }
+
+  //imgArray= [{image, alt}]
+  renderImageCarousel = (name, imgArray) => {
+    let thumbNails = imgArray.map(img => {
+      return (
+        <img key={img.key} className="thumbnail-image" src={img.img} alt={img.alt}  onClick={e => this.handleImageClick(name, e)}/>
+      )
+    })
     return (
       <div className="image-carousel">
         <div className="thumbnail-images">
-          <img name="nowPlayingOne" className="thumbnail-image" src={nowPlayingOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('nowPlayingMain', e)}/>
-          <img name="nowPlayingTwo" className="thumbnail-image" src={nowPlayingTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
-          <img name="nowPlayingThree" className="thumbnail-image" src={nowPlayingThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
+          {thumbNails}
         </div>
-        <img name="nowPlayingMain" className="main-image" src={this.state.nowPlayingMain} alt="Screen shot of Now Playing home page"/>
+        <img name={name} className="main-image" src={this.state[name]} alt={this.state[name + 'Caption'] } />
       </div>
-
-    )
-  }
-
-  renderPokerWinrateCarousel = () => {
-    return (
-      <div className="image-carousel">
-        <div className="thumbnail-images">
-          <img name="pokerOne" className="thumbnail-image" src={pokerOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('pokerWinRateMain', e)}/>
-          <img name="pokerTwo" className="thumbnail-image" src={pokerTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
-          <img name="pokerThree" className="thumbnail-image" src={pokerThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
-        </div>
-        <img name="pokerWinRateMain" className="main-image" src={this.state.pokerWinRateMain} alt="Screen shot of Now Playing home page"/>
-      </div>
-
     )
   }
 
@@ -97,10 +115,17 @@ export default class Portfolio extends React.Component {
               <p className="project-description">
               Poker WinRate is an interactive web application that allows users to track results after each poker session to determine their win rate over time.  As much as poker is a game of skill, luck is a huge element of the game and it is important to track results to determine a player’s edge over a long period of time.  This application allows users to input their sessions indicating the game type, buy-in amount, and how much they cashed out.  The results are then compiled and sorted, and users are provided a data visualization in the analytics section.
               </p>
-              {this.renderPokerWinrateCarousel()}
-              <p className="main-image-caption">{this.state.pokerWinRateMainCaption}</p>
+              {this.renderImageCarousel(
+                'pokerWinRateMain', 
+                [
+                  {img: pokerOne, alt: 'Poker sessions displayed as cards in a condensed view filtered by most recent', key: 1}, 
+                  {img: pokerTwo, alt: 'Data visualization of all sessions by game type', key: 2}, 
+                  {img: pokerThree, alt: 'Information summary of all sessions stored by the user', key: 3}
+                ])
+              }
+              {window.innerWidth >= 768 ? <p className="main-image-caption">{this.state.pokerWinRateMainCaption}</p> : null}
             </Element>
-            {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-client", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-server")}
+            {this.renderProjectButtons("https://poker-winrate.mdagno.now.sh/", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-client", "https://github.com/thinkful-ei-gecko/marlon-poker-winrate-server")}
           </li>
           <li id="now-playing">
             <Element name="now-playing">
@@ -111,10 +136,17 @@ export default class Portfolio extends React.Component {
               <p className="project-description">
               To simplify thread creation, a search engine was implemented using the TMDB API to pull data for existing movies and populate information for created threads including the time, poster, and trailer.  A live update of ongoing “happenings” is also featured on the home page of the application.
               </p>
-              {this.renderNowPlayingCarousel()}
-              <p className="main-image-caption">{this.state.nowPlayingMainCaption}</p>
+              {this.renderImageCarousel(
+                'nowPlayingMain', 
+                [
+                  {img: nowPlayingOne, alt: 'Now Playing home page displaying "happenings" with latest website activity', key: 4}, 
+                  {img: nowPlayingTwo, alt: 'Thread page containing the scrub bar, movie information, and comments', key: 5}, 
+                  {img: nowPlayingThree, alt: 'Thread creation page featuring TMBD API to generate search values', key: 6}
+                ])
+              }
+              {window.innerWidth >= 768 ? <p className="main-image-caption">{this.state.nowPlayingMainCaption}</p> : null}
             </Element>  
-            {this.renderProjectButtons("https://playing-phi-ten.now.sh/", "https://github.com/thinkful-ei-gecko/NowPlaying-Client", "https://github.com/thinkful-ei-gecko/NowPlaying-Server")}
+            {this.renderProjectButtons("https://whatsplaying.now.sh/", "https://github.com/thinkful-ei-gecko/NowPlaying-Client", "https://github.com/thinkful-ei-gecko/NowPlaying-Server")}
           </li>
           <li id="spaced-repetition">  
             <Element name="spaced-repetition">
@@ -124,8 +156,15 @@ export default class Portfolio extends React.Component {
 
               By implementing an algorithm on the server to correctly space cards that a user guesses correctly and incorrectly, the Spaced Repetition application can help a user memorize a language more effectively.  Currently, the supported language in Spaced Repetition is Morse.
               </p>
-              {this.renderNowPlayingCarousel()}
-              <p className="main-image-caption">{this.state.spacedRepetitionMainCaption}</p>
+              {this.renderImageCarousel(
+                'spacedRepetitionMain', 
+                [
+                  {img: spacedRepetitionOne, alt: 'Spaced Repetion home page and sign up', key: 7},
+                   {img: spacedRepetitionTwo, alt: 'Spaced Repetition dashboard displaying languages, progress, and morse alphabet', key: 8}, 
+                   {img: spacedRepetitionThree, alt: 'Learning component to practice a language using spaced repetition', key: 9}
+                  ])
+              }
+              {window.innerWidth >= 768 ? <p className="main-image-caption">{this.state.spacedRepetitionMainCaption}</p> : null}
             </Element>
             {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep-api")}
           </li>

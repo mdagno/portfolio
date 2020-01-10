@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4a7249e966e6696291dbfe1943013e4",
+    "revision": "71126ece11663e30d3170d899fac8cbc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "48a91363387995ce1333",
-    "url": "/portfolio/static/css/main.74b5da66.chunk.css"
+    "revision": "c2c9967f190a5b7e2b28",
+    "url": "/portfolio/static/css/main.dbef6fc7.chunk.css"
   },
   {
-    "revision": "cff22b0deb02b2dab700",
-    "url": "/portfolio/static/js/2.2f3324e0.chunk.js"
+    "revision": "aeef3b95f4c0651d4710",
+    "url": "/portfolio/static/js/2.b15dc5d0.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/portfolio/static/js/2.2f3324e0.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.b15dc5d0.chunk.js.LICENSE"
   },
   {
-    "revision": "48a91363387995ce1333",
-    "url": "/portfolio/static/js/main.3a3c9803.chunk.js"
+    "revision": "c2c9967f190a5b7e2b28",
+    "url": "/portfolio/static/js/main.5ba4da8e.chunk.js"
   },
   {
     "revision": "689ce7b0d8724cc22499",
     "url": "/portfolio/static/js/runtime-main.32894e83.js"
-  },
-  {
-    "revision": "c88d5e0b9e0e89b2dcd55a000df96c0c",
-    "url": "/portfolio/static/media/Marlon Agno Resume.c88d5e0b.pdf"
   },
   {
     "revision": "16809aa7430829676bea374431cd5308",

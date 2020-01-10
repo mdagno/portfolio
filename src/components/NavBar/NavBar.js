@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 import ProjectNav from '../ProjectNav/ProjectNav';
 import {Transition }from 'react-transition-group';
-import gitHubIcon from '../../logos/GitHub-Mark-Light-120px-plus.png';
-import linkedInIcon from '../../logos/linkedin-icon-2.svg';
-import gmailIcon from '../../logos/gmail-icon.svg'
+import gitHubIcon from '../../assets/logos/GitHub-Mark-Light-120px-plus.png';
+import linkedInIcon from '../../assets/logos/linkedin-icon-2.svg';
+import gmailIcon from '../../assets/logos/gmail-icon.svg'
 
 export default class NavBar extends React.Component {
   state = {

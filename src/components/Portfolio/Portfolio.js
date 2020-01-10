@@ -1,17 +1,16 @@
 import React from 'react';
 import './Portfolio.css'
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Element, animateScroll as scroll } from 'react-scroll';
 import { CSSTransition } from 'react-transition-group';
-import nowPlayingOne from '../../app-screenshots/now-playing-1.PNG';
-import nowPlayingTwo from '../../app-screenshots/now-playing-2.PNG';
-import nowPlayingThree from '../../app-screenshots/now-playing-3.PNG';
-import pokerOne from '../../app-screenshots/poker-winrate-1.PNG';
-import pokerTwo from '../../app-screenshots/poker-winrate-2.PNG';
-import pokerThree from '../../app-screenshots/poker-winrate-3.PNG';
-import spacedRepetitionOne from '../../app-screenshots/sr-one.PNG';
-import spacedRepetitionTwo from '../../app-screenshots/sr-two.PNG';
-import spacedRepetitionThree from '../../app-screenshots/sr-three.PNG';
+import nowPlayingOne from '../../assets/app-screenshots/now-playing-1.PNG'
+import nowPlayingTwo from '../../assets/app-screenshots/now-playing-2.PNG';
+import nowPlayingThree from '../../assets/app-screenshots/now-playing-3.PNG';
+import pokerOne from '../../assets/app-screenshots/poker-winrate-1.PNG';
+import pokerTwo from '../../assets/app-screenshots/poker-winrate-2.PNG';
+import pokerThree from '../../assets/app-screenshots/poker-winrate-3.PNG';
+import spacedRepetitionOne from '../../assets/app-screenshots/sr-one.PNG';
+import spacedRepetitionTwo from '../../assets/app-screenshots/sr-two.PNG';
+import spacedRepetitionThree from '../../assets/app-screenshots/sr-three.PNG';
 
 
 export default class Portfolio extends React.Component {

@@ -1,16 +1,16 @@
 import React from 'react';
 import './Bio.css'
 import { CSSTransition } from 'react-transition-group';
-import chaiIcon from '../../logos/chai.svg';
-import cssIcon from '../../logos/css3.svg';
-import htmlIcon from '../../logos/html5.svg';
-import javascriptIcon from '../../logos/javascript.svg';
-import jestIcon from '../../logos/jest-0.svg';
-import jqueryIcon from '../../logos/jquery-1.svg';
-import mochaIcon from '../../logos/mocha-1.svg';
-import nodejsIcon from '../../logos/nodejs-icon.svg';
-import postgresIcon from '../../logos/postgresql.svg';
-import reactIcon from '../../logos/react.svg';
+import chaiIcon from '../../assets/logos/chai.svg';
+import cssIcon from '../../assets/logos/css3.svg';
+import htmlIcon from '../../assets/logos/html5.svg';
+import javascriptIcon from '../../assets/logos/javascript.svg';
+import jestIcon from '../../assets/logos/jest-0.svg';
+import jqueryIcon from '../../assets/logos/jquery-1.svg';
+import mochaIcon from '../../assets/logos/mocha-1.svg';
+import nodejsIcon from '../../assets/logos/nodejs-icon.svg';
+import postgresIcon from '../../assets/logos/postgresql.svg';
+import reactIcon from '../../assets/logos/react.svg';
 
 class Bio extends React.Component {
   state =  {

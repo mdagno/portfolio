@@ -5,9 +5,6 @@ import Header from './components/Header/Header';
 import Bio from './components/Bio/Bio';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
-import Resume from './components/Resume/Resume';
-import NavBar from './components/NavBar/NavBar';
-import * as Scroll from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll'
 import { CSSTransition } from 'react-transition-group';
 
@@ -64,10 +61,9 @@ class App extends React.Component {
       <div className="App">
         <Header location={this.state.location}/>
         <Switch>
-          <Route exact path="/" render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
+          <Route exact path={"/"} render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/projects" render={(props) => <Portfolio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/contactme" render={(props) => <Contact {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
-          <Route path="/resume" component={Resume} />
         </Switch>
       </div>
       </CSSTransition>

@@ -137,7 +137,7 @@ export default class Portfolio extends React.Component {
               }
               {window.innerWidth >= 768 ? <p className="main-image-caption">{this.state.spacedRepetitionMainCaption}</p> : null}
             </Element>
-            {this.renderProjectButtons("", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep-api")}
+            {this.renderProjectButtons("https://spaced-morse.now.sh/", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep", "https://github.com/thinkful-ei-gecko/shawn-marlon-spaced-rep-api")}
           </li>
         </ul>
       </div>

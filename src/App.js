@@ -50,7 +50,8 @@ class App extends React.Component {
   }
 
   render() {
-    const { appear } = this.state
+    const { appear } = this.state;
+
     return (
       <CSSTransition
       in={appear}
@@ -61,7 +62,7 @@ class App extends React.Component {
       <div className="App">
         <Header location={this.state.location}/>
         <Switch>
-          <Route exact path={"/"} render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
+          <Route exact path="/" render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/projects" render={(props) => <Portfolio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/contactme" render={(props) => <Contact {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
         </Switch>

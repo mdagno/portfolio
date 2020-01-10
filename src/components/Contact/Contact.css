@@ -11,12 +11,21 @@
   box-shadow: 10px 10px 10px #111;
 }
 
+.contact-list p {
+  font-size: 1.32em;
+  font-family: input-serif, serif;
+  font-style: normal;
+}
 .contact-list {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.contact-list a:hover {
+  color: #984b43;
 }
 
 .contact-list li {

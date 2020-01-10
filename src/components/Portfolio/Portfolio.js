@@ -52,35 +52,7 @@ export default class Portfolio extends React.Component {
       [caption]: e.target.alt
     })
   }
-
-  // renderNowPlayingCarousel = () => {
-  //   return (
-  //     <div className="image-carousel">
-  //       <div className="thumbnail-images">
-  //         <img name="nowPlayingOne" className="thumbnail-image" src={nowPlayingOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('nowPlayingMain', e)}/>
-  //         <img name="nowPlayingTwo" className="thumbnail-image" src={nowPlayingTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
-  //         <img name="nowPlayingThree" className="thumbnail-image" src={nowPlayingThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('nowPlayingMain', e)} />
-  //       </div>
-  //       <img name="nowPlayingMain" className="main-image" src={this.state.nowPlayingMain} alt="Screen shot of Now Playing home page"/>
-  //     </div>
-
-  //   )
-  // }
-
-  // renderPokerWinrateCarousel = () => {
-  //   return (
-  //     <div className="image-carousel">
-  //       <div className="thumbnail-images">
-  //         <img name="pokerOne" className="thumbnail-image" src={pokerOne} alt="Screen shot of Now Playing home page" onClick={e => this.handleImageClick('pokerWinRateMain', e)}/>
-  //         <img name="pokerTwo" className="thumbnail-image" src={pokerTwo} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
-  //         <img name="pokerThree" className="thumbnail-image" src={pokerThree} alt="Screen shot of comment page on Now Playing" onClick={e => this.handleImageClick('pokerWinRateMain', e)} />
-  //       </div>
-  //       <img name="pokerWinRateMain" className="main-image" src={this.state.pokerWinRateMain} alt="Screen shot of Now Playing home page"/>
-  //     </div>
-  //   )
-  // }
-
-  //imgArray= [{image, alt}]
+  
   renderImageCarousel = (name, imgArray) => {
     let thumbNails = imgArray.map(img => {
       return (

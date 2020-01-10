@@ -21,6 +21,7 @@ class Contact extends React.Component {
       <div id="contact-info" style={this.props.windowWidth >= 1024 ? this.props.margin : null}>
         <h3 className="section-header">CONTACT ME</h3>
         <ul className="contact-list">
+         <p>Location: Vienna, Virginia</p>
          <li>
           <a href="https://github.com/mdagno/" target="_blank" rel="noopener noreferrer">
           GitHub

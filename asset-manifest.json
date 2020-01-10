@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.40137627.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d378cea.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d378cea.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.74b5da66.chunk.css",
+    "main.js": "/portfolio/static/js/main.3a3c9803.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3a3c9803.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.32894e83.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.32894e83.js.map",
-    "static/js/2.6cd389d4.chunk.js": "/portfolio/static/js/2.6cd389d4.chunk.js",
-    "static/js/2.6cd389d4.chunk.js.map": "/portfolio/static/js/2.6cd389d4.chunk.js.map",
+    "static/js/2.2f3324e0.chunk.js": "/portfolio/static/js/2.2f3324e0.chunk.js",
+    "static/js/2.2f3324e0.chunk.js.map": "/portfolio/static/js/2.2f3324e0.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e3296f124d361b7fcfda809c0652fd6d.js": "/portfolio/precache-manifest.e3296f124d361b7fcfda809c0652fd6d.js",
+    "precache-manifest.7227e9fbe11e97da2b799edcba23d052.js": "/portfolio/precache-manifest.7227e9fbe11e97da2b799edcba23d052.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.40137627.chunk.css.map": "/portfolio/static/css/main.40137627.chunk.css.map",
-    "static/js/2.6cd389d4.chunk.js.LICENSE": "/portfolio/static/js/2.6cd389d4.chunk.js.LICENSE",
+    "static/css/main.74b5da66.chunk.css.map": "/portfolio/static/css/main.74b5da66.chunk.css.map",
+    "static/js/2.2f3324e0.chunk.js.LICENSE": "/portfolio/static/js/2.2f3324e0.chunk.js.LICENSE",
     "static/media/Marlon Agno Resume.pdf": "/portfolio/static/media/Marlon Agno Resume.c88d5e0b.pdf",
     "static/media/chai.svg": "/portfolio/static/media/chai.16809aa7.svg",
     "static/media/css3.svg": "/portfolio/static/media/css3.3707da3c.svg",
@@ -31,12 +31,15 @@
     "static/media/poker-winrate-2.PNG": "/portfolio/static/media/poker-winrate-2.6141c7a3.PNG",
     "static/media/poker-winrate-3.PNG": "/portfolio/static/media/poker-winrate-3.81431db2.PNG",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.d7c985e7.svg",
-    "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg"
+    "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg",
+    "static/media/sr-one.PNG": "/portfolio/static/media/sr-one.115e0f7d.PNG",
+    "static/media/sr-three.PNG": "/portfolio/static/media/sr-three.b7960507.PNG",
+    "static/media/sr-two.PNG": "/portfolio/static/media/sr-two.ee951b59.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.32894e83.js",
-    "static/js/2.6cd389d4.chunk.js",
-    "static/css/main.40137627.chunk.css",
-    "static/js/main.9d378cea.chunk.js"
+    "static/js/2.2f3324e0.chunk.js",
+    "static/css/main.74b5da66.chunk.css",
+    "static/js/main.3a3c9803.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb7311946eb8b6e915c07c4106b2f95a",
+    "revision": "cc19ee758feb3b174086fdc4b48be9ee",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "eaf6b46a58c213c32340",
-    "url": "/portfolio/static/css/main.dfc88c8f.chunk.css"
+    "revision": "23599b95af59fe54913e",
+    "url": "/portfolio/static/css/main.9a6a3a40.chunk.css"
   },
   {
     "revision": "aeef3b95f4c0651d4710",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.b15dc5d0.chunk.js.LICENSE"
   },
   {
-    "revision": "eaf6b46a58c213c32340",
-    "url": "/portfolio/static/js/main.30ad5641.chunk.js"
+    "revision": "23599b95af59fe54913e",
+    "url": "/portfolio/static/js/main.dc3a9499.chunk.js"
   },
   {
     "revision": "689ce7b0d8724cc22499",
@@ -68,28 +68,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/nodejs-icon.b337a2fb.svg"
   },
   {
-    "revision": "9951f14720c36062c0f1ca3faed4dc48",
-    "url": "/portfolio/static/media/now-playing-1.9951f147.PNG"
+    "revision": "81a3a8d18d33094bb13cf6aa8e0a778d",
+    "url": "/portfolio/static/media/now-playing-1.81a3a8d1.PNG"
   },
   {
-    "revision": "44c1df3a7a082225a61e234867aebc51",
-    "url": "/portfolio/static/media/now-playing-2.44c1df3a.PNG"
+    "revision": "037863031c8359dd3282ac0b61a3c8ac",
+    "url": "/portfolio/static/media/now-playing-2.03786303.PNG"
   },
   {
-    "revision": "4725da7e5bea8d3705005881d9461e92",
-    "url": "/portfolio/static/media/now-playing-3.4725da7e.PNG"
+    "revision": "b0dd3b6f5a3e8fa70a424f849f635adb",
+    "url": "/portfolio/static/media/now-playing-3.b0dd3b6f.PNG"
   },
   {
-    "revision": "508066ab3c60e3a4d05f9fe8da56487c",
-    "url": "/portfolio/static/media/poker-winrate-1.508066ab.PNG"
+    "revision": "bf09e92c5c3fecec6da4aa5a6748a26d",
+    "url": "/portfolio/static/media/poker-winrate-1.bf09e92c.PNG"
   },
   {
-    "revision": "6141c7a31418a2189de38d6143046416",
-    "url": "/portfolio/static/media/poker-winrate-2.6141c7a3.PNG"
+    "revision": "0381bc4acf6fac3e07a5617025cc23d8",
+    "url": "/portfolio/static/media/poker-winrate-2.0381bc4a.PNG"
   },
   {
-    "revision": "81431db23769887f5bdc95b6dbd63b02",
-    "url": "/portfolio/static/media/poker-winrate-3.81431db2.PNG"
+    "revision": "45310bd82d2c7c63db5bcb6f134b8342",
+    "url": "/portfolio/static/media/poker-winrate-3.45310bd8.PNG"
   },
   {
     "revision": "d7c985e7cca077dc2d77f89a66573e35",
@@ -100,15 +100,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react.4009eef3.svg"
   },
   {
-    "revision": "115e0f7d6d47b551c6782b67c42daa35",
-    "url": "/portfolio/static/media/sr-one.115e0f7d.PNG"
+    "revision": "9dc59819165694360f7490b578a0100a",
+    "url": "/portfolio/static/media/sr-one.9dc59819.PNG"
   },
   {
-    "revision": "b79605076b388130940cb5943b6c9d7d",
-    "url": "/portfolio/static/media/sr-three.b7960507.PNG"
+    "revision": "032af4ecfa6f1f0ff37c2ed72beafdb3",
+    "url": "/portfolio/static/media/sr-three.032af4ec.PNG"
   },
   {
-    "revision": "ee951b59d1ac978cde7393ef04389006",
-    "url": "/portfolio/static/media/sr-two.ee951b59.PNG"
+    "revision": "f05d205d7629c0910151503af142cf0d",
+    "url": "/portfolio/static/media/sr-two.f05d205d.PNG"
   }
 ]);

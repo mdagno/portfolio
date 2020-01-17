@@ -28,12 +28,12 @@ class Contact extends React.Component {
           </a>
           </li>
           <li>
-          <a href="https://www.linkedin.com/in/marlon-agno-75a858108/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/marlon-agno/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
           </li>
           <li>
-          <a href="mailto:mdj.agno@gmail.com">
+          <a href="mailto:mdj.agno@gmail.com" target="_blank" rel="noopener noreferrer">
             mdj.agno@gmail.com
            </a>
           </li>

@@ -48,13 +48,13 @@ export default class NavBar extends React.Component {
     return (
       <nav className="navbar" style={window.innerWidth >= 1024 ? this.navBarHeight() : null}>
         <div className="icon-links">
-          <a href="mailto:mdj.agno@gmail.com">
+        <a href="mailto:mdj.agno@gmail.com" target="_blank" rel="noopener noreferrer">
           <img src={gmailIcon} alt="Logo for gmail" />
           </a>
           <a href="https://github.com/mdagno/" target="_blank" rel="noopener noreferrer">
           <img src={gitHubIcon} alt='Logo for GitHub'/>
           </a>
-          <a href="https://www.linkedin.com/in/marlon-agno-75a858108/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/marlon-agno/" target="_blank" rel="noopener noreferrer">
           <img src={linkedInIcon} alt='Logo for LinkedIn'/>
           </a>
         </div>

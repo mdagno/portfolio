@@ -4,7 +4,7 @@
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px !important;
+  margin-top: 200px;
   color: #ccc;
   background-color: #18121E;
   border-radius: 0px !important;
@@ -103,6 +103,11 @@
   color: #984b43;
 }
 
+#portfolio p {
+  margin-bottom: 1.2em;
+  font-weight: 500;
+}
+
 .main-image-caption {
   text-align: center;
   color: #FAC67A;
@@ -112,7 +117,20 @@
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 0.8em;
+  font-size: 1em;
+}
+
+.project-technologies {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+
+h5 {
+  color: #FAC67A;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 
@@ -124,6 +142,10 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .project-description {
+    width: 80%;
   }
 
   .main-image {
@@ -139,7 +161,7 @@
   
   .thumbnail-image {
     margin: 0;
-    height: 32%;
+    height: 90px;
     width: 30%;
   }
   
@@ -164,6 +186,10 @@
     width: 16vw;
   }
 
+  .project-technologies {
+    width: 80%;
+  }
+
 }
 
 @media only screen and (min-device-width: 1024px){
@@ -172,7 +198,7 @@
     margin: 1em;
     padding: 1em;
     margin-left: 15.5%;
-    margin-top: 125px;
+    margin-top: 150px !important;
   }
   
   .project-description {
@@ -209,7 +235,7 @@
 
   .main-image {
     display: block;
-    width: 70%;
+    width: 75%;
     height: auto;
     border: 1px inset #ccc;
   }
@@ -217,7 +243,7 @@
   .thumbnail-image {
     margin: 0;
     height: 32%;
-    width: 250px;
+    width: 95%;
   }
   
   .thumbnail-images {
@@ -232,11 +258,7 @@
     border: 1px solid #984B43;
   }
 
-  p {
-    padding: 1em;
-    margin: 0;
-    font-weight: 500;
-    color: #ccc;
+  .project-technologies {
+    width: 80%;
   }
-
 }

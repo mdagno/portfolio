@@ -59,14 +59,14 @@ class App extends React.Component {
       timeout={300}
       classNames="my-node"
       >
-      <div className="App">
+      <main>
         <Header location={this.state.location}/>
         <Switch>
           <Route exact path="/" render={(props) => <Bio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/projects" render={(props) => <Portfolio {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
           <Route path="/contactme" render={(props) => <Contact {...props} windowWidth={this.state.windowWidth}  margin={this.determineMargin()}/>}/>
         </Switch>
-      </div>
+      </main>
       </CSSTransition>
     );
   }

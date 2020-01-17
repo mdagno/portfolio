@@ -9,7 +9,7 @@ function Header(props) {
     <header>
       <Link to="/">
       <h1 id="name">Marlon Agno</h1>
-      <h2>Full Stack Web Developer</h2>
+      <h2>Full Stack Developer</h2>
       </Link>
       <NavBar location={props.location}/>
     </header>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.01b6f1f9.chunk.css",
-    "main.js": "/portfolio/static/js/main.a57cabd0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a57cabd0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f672a4ee.chunk.css",
+    "main.js": "/portfolio/static/js/main.061d2b97.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.061d2b97.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.32894e83.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.32894e83.js.map",
-    "static/js/2.b15dc5d0.chunk.js": "/portfolio/static/js/2.b15dc5d0.chunk.js",
-    "static/js/2.b15dc5d0.chunk.js.map": "/portfolio/static/js/2.b15dc5d0.chunk.js.map",
+    "static/js/2.71be59fd.chunk.js": "/portfolio/static/js/2.71be59fd.chunk.js",
+    "static/js/2.71be59fd.chunk.js.map": "/portfolio/static/js/2.71be59fd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9f3080064b8fbf0c2c0aeaa898c54bee.js": "/portfolio/precache-manifest.9f3080064b8fbf0c2c0aeaa898c54bee.js",
+    "precache-manifest.c86e523299f052b305275da49bd9e0b5.js": "/portfolio/precache-manifest.c86e523299f052b305275da49bd9e0b5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.01b6f1f9.chunk.css.map": "/portfolio/static/css/main.01b6f1f9.chunk.css.map",
-    "static/js/2.b15dc5d0.chunk.js.LICENSE": "/portfolio/static/js/2.b15dc5d0.chunk.js.LICENSE",
+    "static/css/main.f672a4ee.chunk.css.map": "/portfolio/static/css/main.f672a4ee.chunk.css.map",
+    "static/js/2.71be59fd.chunk.js.LICENSE": "/portfolio/static/js/2.71be59fd.chunk.js.LICENSE",
     "static/media/chai.svg": "/portfolio/static/media/chai.16809aa7.svg",
     "static/media/css3.svg": "/portfolio/static/media/css3.3707da3c.svg",
     "static/media/NavBar.css": "/portfolio/static/media/footer_lodyas.9a30e6c6.png",
@@ -29,6 +29,7 @@
     "static/media/poker-winrate-1.PNG": "/portfolio/static/media/poker-winrate-1.bf09e92c.PNG",
     "static/media/poker-winrate-2.PNG": "/portfolio/static/media/poker-winrate-2.0381bc4a.PNG",
     "static/media/poker-winrate-3.PNG": "/portfolio/static/media/poker-winrate-3.45310bd8.PNG",
+    "static/media/portrait.jpg": "/portfolio/static/media/portrait.0ec05c35.jpg",
     "static/media/postgresql.svg": "/portfolio/static/media/postgresql.d7c985e7.svg",
     "static/media/react.svg": "/portfolio/static/media/react.4009eef3.svg",
     "static/media/sr-one.PNG": "/portfolio/static/media/sr-one.9dc59819.PNG",
@@ -37,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.32894e83.js",
-    "static/js/2.b15dc5d0.chunk.js",
-    "static/css/main.01b6f1f9.chunk.css",
-    "static/js/main.a57cabd0.chunk.js"
+    "static/js/2.71be59fd.chunk.js",
+    "static/css/main.f672a4ee.chunk.css",
+    "static/js/main.061d2b97.chunk.js"
   ]
 }

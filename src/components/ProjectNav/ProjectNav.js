@@ -14,11 +14,11 @@ export default class ProjectNav extends React.Component {
   }
 
   renderProjectLinks = () => {
-    const projects = ['Poker WinRate', 'Spaced Repetition', 'Now Playing']
+    const projects = ['Poker WinRate', 'Now Playing', 'Spaced Repetition']
     return projects.map((project, index) => {
       return (
         <li key={index}>
-        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={(window.innerWidth <= 1024) ? -175 : -100} duration={500}>{project}</ScrollLink>
+        <ScrollLink activeClass="active" to={project.toLowerCase().replace(" ", "-")} spy={true} smooth={true} offset={(window.innerWidth <= 1024) ? -175 : -120} duration={500}>{project}</ScrollLink>
         </li>
       )
     })

@@ -71,8 +71,6 @@
   color: #FAC67A;
   background-color: transparent;
   border: 1px solid #FAC67A;
-  box-shadow: 3px 3px 3px black;
-
 }
 
 .main-image {
@@ -99,7 +97,6 @@
 .project-buttons button:hover {
   cursor: pointer;
   border: 1px solid #984b43;
-  height: 105%;
   color: #984b43;
 }
 
@@ -183,7 +180,7 @@ h5 {
   }
 
   .project-buttons button {
-    width: 16vw;
+    width: 20vw;
   }
 
   .project-technologies {

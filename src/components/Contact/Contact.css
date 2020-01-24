@@ -4,7 +4,7 @@
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px !important;
+  margin-top: 140px !important;
   color: #ccc;
   background-color: #18121E;
   border-radius: 0px !important;
@@ -43,7 +43,7 @@
   #contact-info {
     width: 70%;
     margin-right: auto;
-    margin-top: 125px;
+    margin-top: 150px !important;
   }
 
   .contact-list p {

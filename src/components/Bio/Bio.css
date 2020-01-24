@@ -4,7 +4,7 @@
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px !important;
+  margin-top: 140px !important;
   color: #ccc;
   background-color: #18121E;
   border-radius: 0px !important;
@@ -39,7 +39,6 @@
   font-size: 1.24em;
   margin-left: auto;
   margin-right: auto;
-  list-style-type: disc !important;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -49,28 +48,35 @@
 
 #technologies-list li {
   display: inline-block;
+  width: 125px;
   text-align: center;
   height: 35px;
-  width: 46%;
   margin: 5px;
   font-family: input-serif, serif;
   font-style: normal;
 }
 
 #about-me h4 {
-  font-size: 1.4em;
+  font-size: 1em;
   margin: 1em;
   text-align: center;
   font-family: input-serif, serif;
   font-style: normal;
   color: #FAC67A;
+}
 
+#portrait {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-device-width: 768px){
 
   #technologies-list li {
-    width: 30%;
+    width: 150px !important;
   }
 
   #about-me  p{
@@ -79,15 +85,28 @@
     margin-right: auto;
     margin-top: 1.5em;
   }
+
+  #portrait {
+    max-height: 250px;
+    width: auto;
+    float: right;
+    margin: 0.5em 1em 1em 1em;
+  }
+
 }
 
 @media only screen and (min-device-width: 1024px) {
+
   #about-me {
     width: 70%;
+    margin-top: 150px !important;
   }
 
   #technologies-list li {
     width: 20%;
+  }
+  #technologies-list {
+    width: 80%;
   }
 
 }

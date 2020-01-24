@@ -11,10 +11,11 @@ header {
 }
 
 header h1 {
+  font-size: 32px;
+  padding: 3px;
   font-family: input-serif, serif;
   font-weight: 500;
   font-style: normal;
-  padding: 3px;
   margin: 0;
 }
 
